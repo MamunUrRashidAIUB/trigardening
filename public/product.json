@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Monstera Deliciosa",
+    "description": "Beautiful indoor plant with split leaves.",
+    "price": 2400,
+    "rating": 4.8,
+    "reviews": 342,
+    "image_url": "images/monstera.jpg",
+    "category": "Plants",
+    "stock": 11
+  },
+  {
+    "id": 2,
+    "name": "Areca Palm",
+    "description": "Air purifying and easy to maintain.",
+    "price": 1600,
+    "rating": 4.6,
+    "reviews": 245,
+    "image_url": "images/areca-palm.jpg",
+    "category": "Plants",
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "name": "Snake Plant",
+    "description": "Best for bedroom, improves air quality.",
+    "price": 900,
+    "rating": 4.9,
+    "reviews": 526,
+    "image_url": "images/snake-plant.jpg",
+    "category": "Plants",
+    "stock": 22
+  },
+  {
+    "id": 4,
+    "name": "Organic Compost Fertilizer",
+    "description": "Natural fertilizer for all plants.",
+    "price": 350,
+    "rating": 4.5,
+    "reviews": 185,
+    "image_url": "images/compost.jpg",
+    "category": "Fertilizers",
+    "stock": 30
+  },
+  {
+    "id": 5,
+    "name": "Gardening Tool Set",
+    "description": "Complete set for plant care.",
+    "price": 1200,
+    "rating": 4.7,
+    "reviews": 198,
+    "image_url": "images/tools.jpg",
+    "category": "Equipment",
+    "stock": 17
+  }
+]
