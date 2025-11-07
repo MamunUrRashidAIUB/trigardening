@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/layout/Navbar";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import Footer from "./components/layout/Footer";
 
 // Prevent FontAwesome from adding its CSS automatically (Next.js handles CSS imports)
 config.autoAddCss = false
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
-        
+        <Footer />
       </body>
     </html>
   );
