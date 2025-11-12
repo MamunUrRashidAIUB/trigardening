@@ -15,7 +15,7 @@ const cardsData = [
 
 export const Category = () => {
   return (
-   <div className="flex gap-6 flex-wrap justify-center items-center  text-black">
+   <div className="flex gap-32 flex-wrap pb-10 justify-center items-center  text-black">
       {cardsData.map((card, idx) => (
         <Categorycard key={idx} icon={card.icon} title={card.title} description={card.description}/>
       ))}

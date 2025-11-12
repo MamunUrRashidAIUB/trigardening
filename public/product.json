@@ -6,7 +6,7 @@
     "price": 2400,
     "rating": 4.8,
     "reviews": 342,
-    "image_url": "images/monstera.jpg",
+    "image_url": "/images/treepot1.jpg",
     "category": "Plants",
     "stock": 11
   },
@@ -17,7 +17,7 @@
     "price": 1600,
     "rating": 4.6,
     "reviews": 245,
-    "image_url": "images/areca-palm.jpg",
+    "image_url": "/images/treepot1.jpg",
     "category": "Plants",
     "stock": 8
   },
@@ -28,7 +28,7 @@
     "price": 900,
     "rating": 4.9,
     "reviews": 526,
-    "image_url": "images/snake-plant.jpg",
+    "image_url": "/images/treepot3.jpg",
     "category": "Plants",
     "stock": 22
   },
@@ -39,7 +39,7 @@
     "price": 350,
     "rating": 4.5,
     "reviews": 185,
-    "image_url": "images/compost.jpg",
+    "image_url": "/images/treepot1.jpg",
     "category": "Fertilizers",
     "stock": 30
   },
@@ -50,8 +50,62 @@
     "price": 1200,
     "rating": 4.7,
     "reviews": 198,
-    "image_url": "images/tools.jpg",
+    "image_url": "/images/treepot3.jpg",
     "category": "Equipment",
     "stock": 17
+  },
+   {
+    "id": 6,
+    "name": "Organic Compost Fertilizer",
+    "description": "Natural fertilizer for all plants.",
+    "price": 350,
+    "rating": 4.5,
+    "reviews": 185,
+    "image_url": "/images/treepot1.jpg",
+    "category": "Fertilizers",
+    "stock": 30
+  },
+   {
+    "id": 7,
+    "name": "Organic Compost Fertilizer",
+    "description": "Natural fertilizer for all plants.",
+    "price": 350,
+    "rating": 4.5,
+    "reviews": 185,
+    "image_url": "/images/treepot1.jpg",
+    "category": "Fertilizers",
+    "stock": 30
+  },
+   {
+    "id": 8,
+    "name": "Organic Compost Fertilizer",
+    "description": "Natural fertilizer for all plants.",
+    "price": 350,
+    "rating": 4.5,
+    "reviews": 185,
+    "image_url": "/images/treepot1.jpg",
+    "category": "Fertilizers",
+    "stock": 30
+  }, {
+    "id": 9,
+    "name": "Organic Compost Fertilizer",
+    "description": "Natural fertilizer for all plants.",
+    "price": 350,
+    "rating": 4.5,
+    "reviews": 185,
+    "image_url": "/images/treepot1.jpg",
+    "category": "Fertilizers",
+    "stock": 30
+  },
+   {
+    "id": 10,
+    "name": "Organic Compost Fertilizer",
+    "description": "Natural fertilizer for all plants.",
+    "price": 350,
+    "rating": 4.5,
+    "reviews": 185,
+    "image_url": "/images/treepot1.jpg",
+    "category": "Fertilizers",
+    "stock": 30
   }
 ]
