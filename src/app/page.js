@@ -5,6 +5,7 @@ import { Hero } from "./components/layout/Pages/Home/Home/Hero/Hero";
 import { Category } from "./components/layout/Pages/Home/Home/Category/Category";
 import { Feature } from "./components/layout/Pages/Home/Home/Featureproduct/Feature";
 import { Popular } from "./components/layout/Pages/Home/Home/Popularproduct/Popular";
+import { ClinicAnalysis } from "./components/layout/Pages/Home/Home/ClinicAnalysis/ClinicAnalysis";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
    <Category  />
    <Feature />
    <Popular />
+   <ClinicAnalysis />
    </div>
   );
 }
