@@ -1,28 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Card } from '@/app/components/layout/Cards/Card'
+import { useProducts } from '@/hooks/useProducts'
+import { usePagination } from '@/hooks/usePagination'
+import { useCart } from '@/hooks/useCart'
 
 export const Popular = () => {
-  const [product, setProduct] = useState([])
-  const [page, setPage] = useState(0)
-  const pageSize = 4
-  const [cartItems, setCartItems] = useState([])
-
-  useEffect(() => {
-    fetch('/product.json')
-      .then(res => res.json())
-      .then(data => setProduct(data))
-      .catch((err) => console.error('Error loading JSON:', err));
-  }, [])
-
-  const totalPages = Math.ceil(product.length / pageSize)
-
-  const nextPage = () => setPage((p) => Math.min(totalPages - 1, p + 1))
-  const prevPage = () => setPage((p) => Math.max(0, p - 1))
-
-  const visibleProducts = product.slice(page * pageSize, page * pageSize + pageSize)
-
-  const handleAddToCart = (item) => setCartItems((prev) => [...prev, item])
-  const removeCartItem = (index) => setCartItems((prev) => prev.filter((_, i) => i !== index))
+  const { products } = useProducts('/product.json')
+  const { visible: visibleProducts, page, totalPages, nextPage, prevPage } = usePagination(products, 4)
+  const { items: cartItems, add, removeAt, clear } = useCart()
 
   return (
     <div>
@@ -45,7 +30,7 @@ export const Popular = () => {
 
           <div className="flex flex-wrap justify-center gap-6 px-4">
             {visibleProducts.map((item) => (
-              <Card key={item.id} {...item} onAdd={handleAddToCart} />
+              <Card key={item.id} {...item} onAdd={(it) => add(it)} />
             ))}
           </div>
 
@@ -66,7 +51,7 @@ export const Popular = () => {
         <div className="fixed right-6 bottom-6 w-80 bg-white rounded-xl shadow-lg p-4 z-50">
           <div className="flex justify-between items-center mb-3">
             <div className="font-semibold">Cart ({cartItems.length})</div>
-            <button onClick={() => setCartItems([])} className="text-sm text-red-500">Clear</button>
+            <button onClick={() => clear()} className="text-sm text-red-500">Clear</button>
           </div>
           <div className="space-y-2 max-h-56 overflow-auto">
             {cartItems.map((it, idx) => (
@@ -76,7 +61,7 @@ export const Popular = () => {
                   <div className="text-sm font-semibold">{it.name}</div>
                   <div className="text-xs text-gray-500">{it.price}</div>
                 </div>
-                <button onClick={() => removeCartItem(idx)} className="text-sm text-red-500">Remove</button>
+                <button onClick={() => removeAt(idx)} className="text-sm text-red-500">Remove</button>
               </div>
             ))}
           </div>
