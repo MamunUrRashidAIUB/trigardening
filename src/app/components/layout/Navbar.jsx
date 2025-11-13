@@ -1,4 +1,5 @@
 // components/Navbar.js
+import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faSearch, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons'
 
@@ -18,11 +19,11 @@ export default function Navbar() {
 
         {/* Menu Links */}
         <div className="flex gap-7">
-          <a href="/" className="text-white font-semibold hover:underline">Home</a>
-          <a href="/products" className="text-white hover:underline">Products</a>
-          <a href="/blog" className="text-white hover:underline">Blogs</a>
-          <a href="/plant-clinic" className="text-white hover:underline">Plant Clinic</a>
-            <button
+          <Link href="/" className="text-white font-semibold hover:underline">Home</Link>
+          <Link href="/products" className="text-white hover:underline">Products</Link>
+          <Link href="/blog" className="text-white hover:underline">Blogs</Link>
+          <Link href="/plant-clinic" className="text-white hover:underline">Plant Clinic</Link>
+          <button
             aria-label="Call TriGardening"
             className="inline-flex items-center gap-2 bg-[#c5731f] text-white rounded-lg px-4 py-2 font-semibold shadow-md hover:bg-[#e0871f] whitespace-nowrap"
           >
