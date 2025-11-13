@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "10 Essential Tips for Indoor Plant Care",
+    "excerpt": "Discover the secrets to keeping your houseplants healthy and thriving year-round with these expert tips.",
+    "author": "Writer's Name",
+    "date": "2025-09-18",
+    "readTime": "5min Read",
+    "image_url": "/images/treepot2.avif",
+    "category": "Plant Care"
+  },
+  {
+    "id": 2,
+    "title": "Growing perfect tomatoes for this season",
+    "excerpt": "Step-by-step guide to planting, feeding and harvesting juicy tomatoes in containers or beds.",
+    "author": "Gardener",
+    "date": "2025-09-12",
+    "readTime": "6min Read",
+    "image_url": "/images/treepot4.avif",
+    "category": "Seasonal Tips"
+  },
+  {
+    "id": 3,
+    "title": "Compost Fertilizer preparing procedures",
+    "excerpt": "Learn how to make nutrient-rich compost at home using kitchen and yard waste.",
+    "author": "Soil Expert",
+    "date": "2025-09-10",
+    "readTime": "4min Read",
+    "image_url": "/images/treepot2.avif",
+    "category": "Fertilizer"
+  },
+  {
+    "id": 4,
+    "title": "Natural Pest Control Methods That Actually Work",
+    "excerpt": "Non-toxic strategies to keep your plants pest-free without harmful chemicals.",
+    "author": "Plant Doctor",
+    "date": "2025-09-05",
+    "readTime": "7min Read",
+    "image_url": "/images/treepot4.avif",
+    "category": "Pest Control"
+  },
+  {
+    "id": 5,
+    "title": "Natural Pest Control Methods That Actually Work",
+    "excerpt": "Non-toxic strategies to keep your plants pest-free without harmful chemicals.",
+    "author": "Plant Doctor",
+    "date": "2025-09-05",
+    "readTime": "7min Read",
+    "image_url": "/images/treepot4.avif",
+    "category": "Pest Control"
+  },
+  {
+    "id": 6,
+    "title": "Natural Pest Control Methods That Actually Work",
+    "excerpt": "Non-toxic strategies to keep your plants pest-free without harmful chemicals.",
+    "author": "Plant Doctor",
+    "date": "2025-09-05",
+    "readTime": "7min Read",
+    "image_url": "/images/treepot4.avif",
+    "category": "Pest Control"
+  }
+  ,
+  {
+    "id": 7,
+    "title": "Natural Pest Control Methods That Actually Work",
+    "excerpt": "Non-toxic strategies to keep your plants pest-free without harmful chemicals.",
+    "author": "Plant Doctor",
+    "date": "2025-09-05",
+    "readTime": "7min Read",
+    "image_url": "/images/treepot4.avif",
+    "category": "Pest Control"
+  }
+]
